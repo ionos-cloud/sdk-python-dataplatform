@@ -18,7 +18,7 @@ class DataPlatformMetaDataApi(object):
         self.api_client = api_client
 
     def versions_get(self, **kwargs):  # noqa: E501
-        """Managed Data Stack API version  # noqa: E501
+        """Managed Stackable Data Platform API Versions  # noqa: E501
 
         Retrieves all available versions of the Managed Stackable Data Platform.  # noqa: E501
         This method makes a synchronous HTTP request by default. To make an
@@ -46,7 +46,7 @@ class DataPlatformMetaDataApi(object):
         return self.versions_get_with_http_info(**kwargs)  # noqa: E501
 
     def versions_get_with_http_info(self, **kwargs):  # noqa: E501
-        """Managed Data Stack API version  # noqa: E501
+        """Managed Stackable Data Platform API Versions  # noqa: E501
 
         Retrieves all available versions of the Managed Stackable Data Platform.  # noqa: E501
         This method makes a synchronous HTTP request by default. To make an

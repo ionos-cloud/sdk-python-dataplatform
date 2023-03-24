@@ -4,13 +4,13 @@ All URIs are relative to *https://api.ionos.com/dataplatform*
 
 | Method | HTTP request | Description |
 | ------------- | ------------- | ------------- |
-| [**versions_get**](DataPlatformMetaDataApi.md#versions_get) | **GET** /versions | Managed Data Stack API version |
+| [**versions_get**](DataPlatformMetaDataApi.md#versions_get) | **GET** /versions | Managed Stackable Data Platform API Versions |
 
 
 # **versions_get**
 > list[str] versions_get()
 
-Managed Data Stack API version
+Managed Stackable Data Platform API Versions
 
 Retrieves all available versions of the Managed Stackable Data Platform.
 
@@ -35,7 +35,7 @@ with ionoscloud_dataplatform.ApiClient(configuration) as api_client:
     # Create an instance of the API class
     api_instance = ionoscloud_dataplatform.DataPlatformMetaDataApi(api_client)
     try:
-        # Managed Data Stack API version
+        # Managed Stackable Data Platform API Versions
         api_response = api_instance.versions_get()
         print(api_response)
     except ApiException as e:
