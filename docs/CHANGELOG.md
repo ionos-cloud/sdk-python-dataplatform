@@ -1,3 +1,7 @@
+## 1.0.1
+### Changes:
+- Methods were change to the format used by the other SDKs, resource_verb (ex: create_cluster -> clusters_post)
+
 ## SDK Python Data Platform v1.0.0
 
 ### Overview
